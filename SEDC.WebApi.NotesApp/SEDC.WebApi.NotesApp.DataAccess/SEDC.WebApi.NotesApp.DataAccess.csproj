@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.35" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.WebApi.NotesApp.DataModels\SEDC.WebApi.NotesApp.DataModels.csproj" />
+    <ProjectReference Include="..\SEDC.WebApi.NotesApp.DataModel\SEDC.WebApi.NotesApp.DataModel.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,450 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Api\\SEDC.WebApi.NotesApp.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Api\\SEDC.WebApi.NotesApp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Api\\SEDC.WebApi.NotesApp.Api.csproj",
+        "projectName": "SEDC.WebApi.NotesApp.Api",
+        "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Api\\SEDC.WebApi.NotesApp.Api.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Models\\SEDC.WebApi.NotesApp.Models.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Models\\SEDC.WebApi.NotesApp.Models.csproj"
+              },
+              "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Services\\SEDC.WebApi.NotesApp.Services.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Services\\SEDC.WebApi.NotesApp.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataAccess\\SEDC.WebApi.NotesApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataAccess\\SEDC.WebApi.NotesApp.DataAccess.csproj",
+        "projectName": "SEDC.WebApi.NotesApp.DataAccess",
+        "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataAccess\\SEDC.WebApi.NotesApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModels\\SEDC.WebApi.NotesApp.DataModels.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModels\\SEDC.WebApi.NotesApp.DataModels.csproj"
+              },
+              "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModel\\SEDC.WebApi.NotesApp.DataModel.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModel\\SEDC.WebApi.NotesApp.DataModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModels\\SEDC.WebApi.NotesApp.DataModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModels\\SEDC.WebApi.NotesApp.DataModels.csproj",
+        "projectName": "SEDC.WebApi.NotesApp.DataModels",
+        "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModels\\SEDC.WebApi.NotesApp.DataModels.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModel\\SEDC.WebApi.NotesApp.DataModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModel\\SEDC.WebApi.NotesApp.DataModel.csproj",
+        "projectName": "SEDC.WebApi.NotesApp.DataModel",
+        "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModel\\SEDC.WebApi.NotesApp.DataModel.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Models\\SEDC.WebApi.NotesApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Models\\SEDC.WebApi.NotesApp.Models.csproj",
+        "projectName": "SEDC.WebApi.NotesApp.Models",
+        "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Models\\SEDC.WebApi.NotesApp.Models.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Services\\SEDC.WebApi.NotesApp.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Services\\SEDC.WebApi.NotesApp.Services.csproj",
+        "projectName": "SEDC.WebApi.NotesApp.Services",
+        "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Services\\SEDC.WebApi.NotesApp.Services.csproj",
+        "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataAccess\\SEDC.WebApi.NotesApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataAccess\\SEDC.WebApi.NotesApp.DataAccess.csproj"
+              },
+              "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModels\\SEDC.WebApi.NotesApp.DataModels.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModels\\SEDC.WebApi.NotesApp.DataModels.csproj"
+              },
+              "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModel\\SEDC.WebApi.NotesApp.DataModel.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.DataModel\\SEDC.WebApi.NotesApp.DataModel.csproj"
+              },
+              "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Models\\SEDC.WebApi.NotesApp.Models.csproj": {
+                "projectPath": "C:\\Users\\vasil\\Desktop\\WebApi\\Api\\SEDC.WebApi.NotesApp\\SEDC.WebApi.NotesApp.Models\\SEDC.WebApi.NotesApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.WebApi.NotesApp.DataAccess", "SEDC.WebApi.NotesApp.DataAccess\SEDC.WebApi.NotesApp.DataAccess.csproj", "{D7161C62-EF33-47C1-8D89-CA07DBEF6B36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.WebApi.NotesApp.DataModels", "SEDC.WebApi.NotesApp.DataModels\SEDC.WebApi.NotesApp.DataModels.csproj", "{D8748086-F330-4317-8FC8-0B67E471F41E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.WebApi.NotesApp.Models", "SEDC.WebApi.NotesApp.Models\SEDC.WebApi.NotesApp.Models.csproj", "{0DF57F7B-0B0D-48AD-8F1E-39A5F4647290}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.WebApi.NotesApp.Services", "SEDC.WebApi.NotesApp.Services\SEDC.WebApi.NotesApp.Services.csproj", "{853E0980-29E2-4869-9041-AF3FCF441F25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.WebApi.NotesApp.Api", "SEDC.WebApi.NotesApp.Api\SEDC.WebApi.NotesApp.Api.csproj", "{26B3BCFF-3854-40BA-A75A-A9E7DA3D6E03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.WebApi.NotesApp.DataModel", "SEDC.WebApi.NotesApp.DataModel\SEDC.WebApi.NotesApp.DataModel.csproj", "{98A42D5E-A844-48AB-ABC6-EA668E3F0B4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7161C62-EF33-47C1-8D89-CA07DBEF6B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7161C62-EF33-47C1-8D89-CA07DBEF6B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7161C62-EF33-47C1-8D89-CA07DBEF6B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7161C62-EF33-47C1-8D89-CA07DBEF6B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8748086-F330-4317-8FC8-0B67E471F41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8748086-F330-4317-8FC8-0B67E471F41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8748086-F330-4317-8FC8-0B67E471F41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8748086-F330-4317-8FC8-0B67E471F41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF57F7B-0B0D-48AD-8F1E-39A5F4647290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF57F7B-0B0D-48AD-8F1E-39A5F4647290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF57F7B-0B0D-48AD-8F1E-39A5F4647290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF57F7B-0B0D-48AD-8F1E-39A5F4647290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853E0980-29E2-4869-9041-AF3FCF441F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853E0980-29E2-4869-9041-AF3FCF441F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853E0980-29E2-4869-9041-AF3FCF441F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853E0980-29E2-4869-9041-AF3FCF441F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B3BCFF-3854-40BA-A75A-A9E7DA3D6E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B3BCFF-3854-40BA-A75A-A9E7DA3D6E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B3BCFF-3854-40BA-A75A-A9E7DA3D6E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B3BCFF-3854-40BA-A75A-A9E7DA3D6E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98A42D5E-A844-48AB-ABC6-EA668E3F0B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A42D5E-A844-48AB-ABC6-EA668E3F0B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A42D5E-A844-48AB-ABC6-EA668E3F0B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A42D5E-A844-48AB-ABC6-EA668E3F0B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADBDCC94-C99A-4067-9157-AED5A2D10462}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.WebApi.NotesApp.DataAccess\SEDC.WebApi.NotesApp.DataAccess.csproj" />
+    <ProjectReference Include="..\SEDC.WebApi.NotesApp.DataModels\SEDC.WebApi.NotesApp.DataModels.csproj" />
+    <ProjectReference Include="..\SEDC.WebApi.NotesApp.DataModel\SEDC.WebApi.NotesApp.DataModel.csproj" />
+    <ProjectReference Include="..\SEDC.WebApi.NotesApp.Models\SEDC.WebApi.NotesApp.Models.csproj" />
+  </ItemGroup>
+
+</Project>
